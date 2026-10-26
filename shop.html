@@ -1,0 +1,35 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+    <h1>E-Commerce Website</h1>
+
+    <h2>1. Observer Pattern - Price Drop</h2>
+    <div id="products"></div>
+    <ul id="notifications"></ul>
+
+    <h2>2. Strategy Pattern - Payment</h2>
+    <select id="payment">
+        <option value="card">Card</option>
+        <option value="upi">UPI</option>
+        <option value="wallet">Wallet</option>
+    </select>
+    <button onclick="checkout()">Pay Now</button>
+    <p id="status"></p>
+
+    <h2>3. Command Pattern - Shopping Cart</h2>
+    <div id="cart"></div>
+    <p id="total"></p>
+    <button onclick="applyCoupon()">Apply Coupon</button>
+    <button onclick="undoAction()">Undo</button>
+    <button onclick="redoAction()">Redo</button>
+
+    <script src="patterns.js"></script>
+</body>
+</html>
+```

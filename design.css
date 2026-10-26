@@ -1,0 +1,53 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+    margin: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+}
+
+h2 {
+    color: #333366;
+    margin-top: 30px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+button, select {
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button {
+    background: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: royalblue;
+}
+
+#notifications, #cart {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#status, #total {
+    font-weight: bold;
+}
+```
